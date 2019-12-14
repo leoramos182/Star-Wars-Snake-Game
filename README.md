@@ -9,4 +9,4 @@
 * Bootstrap
 
 # Criado por
-[Leo Andrade](https://github.com/leoramos182)
+[Leo Andrade](https://github.com/leoramos182) com ajuda de [Thiago Bomfim](https://github.com/BomfimThiago)
