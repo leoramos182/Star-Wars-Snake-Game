@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+canvas {
+    background-color: #262626;
+}
+.btn{
+    background-color: #262626;
+    color: white;
+}
+.borda {
+    border: 1px solid black;
+    text-align: center;
+}
+.player1 {
+    color:  #e60000 ;
+
+}
+.player2 {
+    color:#33cc33
+}

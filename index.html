@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Desafio Jovens Gênios | Léo Ramos Andrade</title>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" type="text/css" href="mapa.css">
+</head>
+<body>
+    <div>
+        <h1>Desafio Jovens Gênios | Léo Ramos Andrade</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!--COLUNA DO PLAYER 1-->
+            <div class="col-sm-3 player1">
+                <div><h1>Darth Vader</h1></div>
+                <div id="pontos1">Score: </div>
+                <div><img src="../Desafio Jovens Gênios Leo Ramos Andrade/darthvader.png" width="250" height="250"></div>
+            </div>
+            <!--COLUNA DO CANVAS-->
+            <div class="col-sm-6">
+                <canvas id="canvas"></canvas>
+                <script src="index.js"></script>
+                <div class="row">
+                    <div class="col-sm-4"> <button class="btn" onclick="location.reload()">Restart Game</button></div>
+                    <div class="col-sm-8">
+                        <audio controls autoplay loop="true">
+                        <source src="../Desafio Jovens Gênios Leo Ramos Andrade/swmusic.mp3" type="audio/wav">
+                        </audio></div>
+                </div>
+            </div>
+            <!--COLUNA DO PLAYER 2-->
+            <div class="col-sm-3 player2">
+                <div><h1>Luke Skywalker</h1></div>
+                <div id="pontos2">Score:</div>
+                <div><img src="../Desafio Jovens Gênios Leo Ramos Andrade/luke.png" width="250" height="250"></div>
+            </div>
+        </div>
+    </div>
+</body>
