@@ -14,7 +14,7 @@
 * Esquerda: a
 * Direita: d
 
-#Comandos do player 2
+# Comandos do player 2
 * Cima: ArrowUp
 * Baixo: arrowDown
 * Esquerda: arrowLeft
